@@ -8,7 +8,7 @@
   /*===== Colores =====*/
   /*Purple 260 - Red 355 - Blue 224 - Pink 340*/
   /* HSL color mode */
-  --hue-color: 180;
+  --hue-color: 224;
   --first-color: hsl(var(--hue-color), 89%, 60%);
   --second-color: hsl(var(--hue-color), 56%, 12%);
   /*===== Fuente y tipografia =====*/
@@ -111,7 +111,7 @@ img {
   top: 0;
   left: 0;
   z-index: var(--z-fixed);
-  background-color: #355;
+  background-color: #fff;
   box-shadow: 0 1px 4px rgba(146, 161, 176, 0.15);
 }
 
@@ -131,7 +131,7 @@ img {
     width: 80%;
     height: 100%;
     padding: 2rem;
-    background-color: var(--second-color);
+    background-color: var(192,192,192);
     transition: 0.5s;
   }
 }

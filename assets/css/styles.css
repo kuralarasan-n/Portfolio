@@ -131,7 +131,7 @@ img {
     width: 80%;
     height: 100%;
     padding: 2rem;
-    background-color: var(192,192,192);
+    background-color: 192,192,192;
     transition: 0.5s;
   }
 }
@@ -158,6 +158,7 @@ img {
   color: var(--second-color);
 }
 .nav__toggle {
+  --hue-color: 355;
   color: var(--second-color);
   font-size: 1.5rem;
   cursor: pointer;
@@ -171,7 +172,7 @@ img {
   height: 0.18rem;
   left: 0;
   top: 2rem;
-  background-color: var(--first-color);
+  background-color: #000000;
 }
 
 /*=== Show menu ===*/

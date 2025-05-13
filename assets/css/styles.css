@@ -108,10 +108,9 @@ img {
 }
 
 .bd-grid1 {
-  max-width: 100%;
-  display: grid;
-  margin-left: var(--mb-2);
-  margin-right: var(--mb-2);
+   box-shadow: 0px 4px 25px rgba(14, 36, 49, 0.15);
+  border-radius: 0.5rem;
+  overflow: hidden;
 }
 
 .l-header {

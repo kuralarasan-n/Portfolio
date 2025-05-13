@@ -295,8 +295,8 @@ img{
         color: var(--first-color);
     }
     &__names{
-        display: flex;
-        align-items: center;
+        grid-template-columns: repeat(3,1fr);
+        column-gap: 2rem;
     }
     &__bar{
         position: absolute;

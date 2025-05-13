@@ -107,6 +107,13 @@ img {
   margin-right: var(--mb-2);
 }
 
+.bd-grid1 {
+  max-width: 100%;
+  display: grid;
+  margin-left: var(--mb-2);
+  margin-right: var(--mb-2);
+}
+
 .l-header {
   width: 100%;
   position: fixed;

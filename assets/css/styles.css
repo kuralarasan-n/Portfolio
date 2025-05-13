@@ -97,6 +97,8 @@ img {
   padding-bottom: 2rem;
 }
 
+
+
 /*===== LAYOUT =====*/
 .bd-grid {
   max-width: 1024px;
@@ -306,6 +308,17 @@ img {
 }
 .skills__img {
   border-radius: 0.5rem;
+}
+
+contain {
+  max-width: 960px;
+  text-align: center;
+}
+.category {
+  position: relative;
+  display: inline-block;
+  float: left;
+  padding: 10px;
 }
 
 /* ===== WORK =====*/

@@ -282,8 +282,8 @@ img {
   color: var(--first-color);
 }
 .skills__names {
-  display: flex;
-  align-items: center;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 2rem;
 }
 .skills__bar {
   position: absolute;

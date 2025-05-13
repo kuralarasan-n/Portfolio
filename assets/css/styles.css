@@ -107,12 +107,6 @@ img {
   margin-right: var(--mb-2);
 }
 
-.bd-grid1 {
-   box-shadow: 0px 4px 25px rgba(14, 36, 49, 0.15);
-  border-radius: 0.5rem;
-  overflow: hidden;
-}
-
 .l-header {
   width: 100%;
   position: fixed;
@@ -275,7 +269,7 @@ img {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  position: continue;
+  position: center;
   font-weight: var(--font-semi);
   padding: 0.5rem 1rem;
   margin-bottom: var(--mb-4);
